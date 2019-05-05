@@ -3,7 +3,7 @@
 n=0
 
 while true; do
-    wget http://10.0.1.10:80 -o index.html
+    wget http://[IP of web server] -o index.html
     sleep 3
     n=$((n + 1))
     echo $n
