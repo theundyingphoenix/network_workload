@@ -44,9 +44,11 @@ kill all instances on host machine
 
 Then bind-address in /etc/mysql/my.cnf
 
-	-look for line:
+(look for line)
+
 	bind-address                   = 127.0.0.1
-	-add
+(add)
+
 	bind-address                   = [IP of mysql server]
 
 -Restart mysql server
